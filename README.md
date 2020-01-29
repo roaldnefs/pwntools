@@ -25,5 +25,5 @@ For convenience it also contains:
 
 ### Run
 
-- OSX (iTerm2): `NAME=pwntools; docker run -it -v /tmp/data:/tmp/data --privileged --name ${NAME} --hostname ${NAME} frankspierings/pwntools tmux -CC`
-- Linux: `NAME=pwntools; docker run -it -v /tmp/data:/tmp/data --privileged --name ${NAME} --hostname ${NAME} frankspierings/pwntools /bin/bash`
+- OSX (iTerm2): `NAME=pwntools; docker run -it --rm -v /tmp/data:/tmp/data --privileged --name ${NAME} --hostname ${NAME} frankspierings/pwntools tmux -CC`
+- Linux: `NAME=pwntools; docker run -it --rm -v /tmp/data:/tmp/data --privileged --name ${NAME} --hostname ${NAME} frankspierings/pwntools /bin/bash`

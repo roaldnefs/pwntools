@@ -63,5 +63,5 @@ RUN apt-get autoclean -y && \
 
 ###
 ### Build this file: `docker build -t pwntools .`
-### Run (iTerm2): `docker run -it -v /tmp/data:/tmp/data --privileged --name pwntools --hostname pwntools pwntools tmux -CC`
+### Run (iTerm2): `docker run -it --rm -v /tmp/data:/tmp/data --privileged --name pwntools --hostname pwntools pwntools tmux -CC`
 ###
